@@ -17,7 +17,8 @@ class ViewController: UIViewController {
 //        useCATextLayer()
 //        useCATransformLayer()
 //        useCAGradientLayer()
-        useCAReplicatorLayer(view: view)
+//        useCAReplicatorLayer(view: view)
+        useCAEmitterLayer(in: view)
     }
 }
 

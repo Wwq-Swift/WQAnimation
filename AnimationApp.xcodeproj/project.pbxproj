@@ -19,6 +19,7 @@
 		8478B82D22E872F5004EB553 /* WQCAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478B82C22E872F5004EB553 /* WQCAGradientLayer.swift */; };
 		8478B82F22E8733B004EB553 /* WQCATransformLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478B82E22E8733B004EB553 /* WQCATransformLayer.swift */; };
 		8478B83122E87367004EB553 /* WQCATextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478B83022E87367004EB553 /* WQCATextLayer.swift */; };
+		8478B83322E87D84004EB553 /* WQCAEGLLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478B83222E87D84004EB553 /* WQCAEGLLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		8478B82C22E872F5004EB553 /* WQCAGradientLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCAGradientLayer.swift; sourceTree = "<group>"; };
 		8478B82E22E8733B004EB553 /* WQCATransformLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCATransformLayer.swift; sourceTree = "<group>"; };
 		8478B83022E87367004EB553 /* WQCATextLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCATextLayer.swift; sourceTree = "<group>"; };
+		8478B83222E87D84004EB553 /* WQCAEGLLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCAEGLLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				8478B82C22E872F5004EB553 /* WQCAGradientLayer.swift */,
 				8478B82E22E8733B004EB553 /* WQCATransformLayer.swift */,
 				8478B83022E87367004EB553 /* WQCATextLayer.swift */,
+				8478B83222E87D84004EB553 /* WQCAEGLLayer.swift */,
 			);
 			path = SubCALayer;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8478B83322E87D84004EB553 /* WQCAEGLLayer.swift in Sources */,
 				8478B82F22E8733B004EB553 /* WQCATransformLayer.swift in Sources */,
 				8478B82B22E87295004EB553 /* WQCAEmitterLayer.swift in Sources */,
 				8478B82522E735E7004EB553 /* WQCAShapeLayer.swift in Sources */,
