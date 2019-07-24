@@ -14,6 +14,11 @@
 		8478B81C22E71C43004EB553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8478B81A22E71C43004EB553 /* LaunchScreen.storyboard */; };
 		8478B82522E735E7004EB553 /* WQCAShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478B82422E735E7004EB553 /* WQCAShapeLayer.swift */; };
 		8478B82722E7366F004EB553 /* WQCAReplicatorLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478B82622E7366F004EB553 /* WQCAReplicatorLayer.swift */; };
+		8478B82922E86EFA004EB553 /* WQCATiledLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478B82822E86EFA004EB553 /* WQCATiledLayer.swift */; };
+		8478B82B22E87295004EB553 /* WQCAEmitterLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478B82A22E87295004EB553 /* WQCAEmitterLayer.swift */; };
+		8478B82D22E872F5004EB553 /* WQCAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478B82C22E872F5004EB553 /* WQCAGradientLayer.swift */; };
+		8478B82F22E8733B004EB553 /* WQCATransformLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478B82E22E8733B004EB553 /* WQCATransformLayer.swift */; };
+		8478B83122E87367004EB553 /* WQCATextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478B83022E87367004EB553 /* WQCATextLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		8478B81D22E71C43004EB553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8478B82422E735E7004EB553 /* WQCAShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCAShapeLayer.swift; sourceTree = "<group>"; };
 		8478B82622E7366F004EB553 /* WQCAReplicatorLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCAReplicatorLayer.swift; sourceTree = "<group>"; };
+		8478B82822E86EFA004EB553 /* WQCATiledLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCATiledLayer.swift; sourceTree = "<group>"; };
+		8478B82A22E87295004EB553 /* WQCAEmitterLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCAEmitterLayer.swift; sourceTree = "<group>"; };
+		8478B82C22E872F5004EB553 /* WQCAGradientLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCAGradientLayer.swift; sourceTree = "<group>"; };
+		8478B82E22E8733B004EB553 /* WQCATransformLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCATransformLayer.swift; sourceTree = "<group>"; };
+		8478B83022E87367004EB553 /* WQCATextLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WQCATextLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,11 @@
 			children = (
 				8478B82422E735E7004EB553 /* WQCAShapeLayer.swift */,
 				8478B82622E7366F004EB553 /* WQCAReplicatorLayer.swift */,
+				8478B82822E86EFA004EB553 /* WQCATiledLayer.swift */,
+				8478B82A22E87295004EB553 /* WQCAEmitterLayer.swift */,
+				8478B82C22E872F5004EB553 /* WQCAGradientLayer.swift */,
+				8478B82E22E8733B004EB553 /* WQCATransformLayer.swift */,
+				8478B83022E87367004EB553 /* WQCATextLayer.swift */,
 			);
 			path = SubCALayer;
 			sourceTree = "<group>";
@@ -149,9 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8478B82F22E8733B004EB553 /* WQCATransformLayer.swift in Sources */,
+				8478B82B22E87295004EB553 /* WQCAEmitterLayer.swift in Sources */,
 				8478B82522E735E7004EB553 /* WQCAShapeLayer.swift in Sources */,
 				8478B81422E71C42004EB553 /* ViewController.swift in Sources */,
+				8478B82922E86EFA004EB553 /* WQCATiledLayer.swift in Sources */,
+				8478B83122E87367004EB553 /* WQCATextLayer.swift in Sources */,
 				8478B82722E7366F004EB553 /* WQCAReplicatorLayer.swift in Sources */,
+				8478B82D22E872F5004EB553 /* WQCAGradientLayer.swift in Sources */,
 				8478B81222E71C42004EB553 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
