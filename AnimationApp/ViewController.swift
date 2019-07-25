@@ -19,7 +19,10 @@ class ViewController: UIViewController {
 //        useCAGradientLayer()
 //        useCAReplicatorLayer(view: view)
         useCAEmitterLayer(in: view)
+        
+
     }
+    
 }
 
 class CashapeLayerView: UIView {
