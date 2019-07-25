@@ -18,9 +18,11 @@ class ViewController: UIViewController {
 //        useCATransformLayer()
 //        useCAGradientLayer()
 //        useCAReplicatorLayer(view: view)
-        useCAEmitterLayer(in: view)
-        
-
+//        useCAEmitterLayer(in: view)
+//        view.addSubview(DrawingOne(frame: view.bounds))
+//        view.addSubview(DrawingTwo(frame: view.bounds))
+//        view.addSubview(DrawingThree(frame: view.bounds))
+        view.addSubview(DrawingFour(frame: view.bounds))
     }
     
 }
